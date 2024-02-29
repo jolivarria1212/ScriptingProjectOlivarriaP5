@@ -14,7 +14,7 @@ public class DestroyOther : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.P))
         {
             Destroy(other);
         }
